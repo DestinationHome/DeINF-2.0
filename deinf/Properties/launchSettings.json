@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "deinf (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "deinf (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

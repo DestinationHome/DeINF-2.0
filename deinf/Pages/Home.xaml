@@ -1,0 +1,48 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="deinf.Pages.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:deinf.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <Grid Margin="40,16,0,0">
+            <StackPanel Orientation="Vertical">
+                <TextBlock FontSize="24" FontWeight="SemiBold" Margin="0,12">Home</TextBlock>
+                
+                <Border Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                                VerticalAlignment="Top" 
+                                HorizontalAlignment="Stretch" 
+                                Margin="16"
+                                CornerRadius="8"
+                                BorderThickness="1"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Content here!</TextBlock>
+                </Border>
+                <Border Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                                VerticalAlignment="Top" 
+                                HorizontalAlignment="Stretch" 
+                                Margin="16" 
+                                CornerRadius="8"
+                                BorderThickness="1"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Content here!</TextBlock>
+                </Border>
+                <Border Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                                VerticalAlignment="Top" 
+                                HorizontalAlignment="Stretch" 
+                                Margin="16"
+                                CornerRadius="8"
+                                BorderThickness="1"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Content here!</TextBlock>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>
